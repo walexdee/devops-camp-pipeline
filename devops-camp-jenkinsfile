@@ -8,7 +8,7 @@ pipeline {
         HARBOR_REGISTRY = 'harbor.dev.afsmtddso.com'
         HARBOR_PROJECT = 'adaramola-harbor-project'
         APP_IMAGE_NAME = 'app'
-        DB_IMAGE_NAME = 'db'
+        // DB_IMAGE_NAME = 'db'
     }
     stages {
         stage('Application repository') {
